@@ -1,0 +1,42 @@
+body {
+    background-size: cover; 
+    background-position: center;
+    text-align: center;
+}
+
+.heading
+{
+font-size: 40px;
+width: fit-content;
+margin: 10px;
+}
+
+#status
+{
+font-size: 18px;
+}
+
+#back {
+    float: right;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    margin-right: 50px;
+    border-radius: 75px;
+}
+
+#back:hover {
+    float: right;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    margin-right: 50px;
+    border-radius: 75px;
+}
+
+canvas {
+    border-style: double;
+    border-color: rgb(255, 0, 255);
+    border-width: 10px;
+    box-shadow: 3px, 3px, 3px rgb(114, 0, 114);
+}
